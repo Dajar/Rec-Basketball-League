@@ -1,0 +1,246 @@
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media screen and (max-width:768px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;	
+  }
+}
+
+@media screen and (max-width:768px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+
+@media (min-width: 768px) {
+	.container {
+		width: 90%;
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+
+    .container ul {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+
+.col  {  
+        float: left;  
+		display: inline-block;
+		width: 50%; 
+		margin-right: -4px;
+		vertical-align: top;
+		padding-left: 3px;
+		padding-right: 2px;
+}
+
+.container li {
+                font-size: .75em;
+                margin: 10px 5px 5px 5px;
+                
+ }
+
+.pow {
+     display: inherit;
+     text-align: center;
+     line-height: 1.5; 
+     border-style: none;
+ }
+ 
+#scoresPow {
+       margin-bottom: .9em;
+}
+
+#jsweekly {
+       margin-bottom: .9em;
+}
+
+
+#scoresPow p{
+        font-size: 1.1em;
+}
+
+h3[id~="nightly"] {
+        margin-bottom: 6px;
+}
+
+h3[id~="weeklyScores"] {
+        margin-bottom: 3px;
+}
+
+/* for Box Scores page to keep list items at equal height. JS added creating undesired behavior
+.boxScores {
+    height: 450px;
+}
+*/
+ 
+.container li p {
+       font-size: .8em;
+	   text-align: right;
+	   color: #gray;
+	   letter-spacing: .5px;
+}
+
+.leagueLeaders {
+        font-family: Verdana; 
+        font-size: 1.2em;
+        color: rgba(52,65,82,.9);        
+        line-height: 1.3;
+		letter-spacing: .5px;
+}
+
+.main-footer p {
+               margin: 0;
+               font-size: .9em;
+}
+.tabx-menu ul {
+       width: 100%;
+       margin: 0 auto;
+             
+}
+
+.tabx-menu li {
+       display: inline-block;
+       margin: 0;
+	   text-align: center;
+	   width: 50px;
+       margin-right: 0;	   
+	   padding-top: 5px;
+       padding-right: 2px;
+       padding-bottom: 2px;
+       padding-left: 2px;       
+	   border-bottom: none; 
+	   background-color: #EBEBEB;
+	   font-size: 1.1em;
+}
+
+.tabx-menu li  a {
+       color:black;
+}
+
+.formButton {
+    background-color: #06c;
+    border: solid 1px #06c;
+	border-radius: 2px;
+    color: #fff;
+    padding: 2px 10px;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+	font-family: Helvetica, monospace;
+	font-weight: 600;
+    margin-left: 0px;
+	margin-bottom: 4px;
+	width: 42%;
+	cursor: pointer;
+}
+
+button {
+    background-color: #fff;
+    border: solid 1px #06c;
+	border-radius: 2px;
+    color: #06c;
+    padding: 2px 10px;	
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+	font-family: Helvetica, monospace;
+    margin-left: 0px;
+	cursor: pointer;
+}
+
+.teams {
+        font-family: Helvetica, monospace;
+        font-weight: 600;
+	    font-size: 1.3em;
+	    color: rgba(52,65,82,.8);
+		letter-spacing: 1px;
+        line-height: 1.5;
+        
+}
+
+.standings::before {
+       content: url(../images/barChart.svg);
+	   display: inline-block;
+	   margin-right: 12px;
+	   width: 35px;
+	   height: 40px;
+}
+
+.scoreboard::before {
+       content: url(../images/scoreboard1.svg);
+	   display: inline-block;
+	   margin-right: 12px;
+	   width: 35px;
+	   height: 40px;
+}
+ 
+.player::before {
+       content: url(../images/award.svg);
+	   display: inline-block;
+	   margin-right: 12px;
+	   width: 35px;
+	   height: 40px;
+}
+
+.schedule::before {
+       content: url(../images/calendar1.svg);
+	   display: inline-block;
+	   margin-right: 12px;
+	   width: 35px;
+	   height: 40px;
+}
+
+.leaders::before {
+       content: url(../images/podium1.svg);
+	   display: inline-block;
+	   margin-right: 12px;
+	   width: 35px;
+	   height: 40px;
+}
+
+.play::before {
+       content: url(../images/strategy.svg);
+	   display: inline-block;
+	   margin-left: 0;
+	   width: 35px;
+	   height: 40px;
+} 
+
+input[type="radio"] {
+    display: inline-block;
+	margin: 0;
+}
+
+#signUpForm input:not([type="radio"]), textarea{
+    display: block;
+	margin: 0;
+	width: 42%;
+}
+
+#signUpForm {
+	font-size: 14px;
+}
+
+       
+}

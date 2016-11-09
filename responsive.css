@@ -1,0 +1,176 @@
+@media all and (min-width: 280px) {
+
+/*************************************************
+PAGE PORTFOLIO - ONE COLUMN LAYOUT
+*************************************************/
+
+#gallery li {
+float: left;
+width: 90%;
+margin: 5%;
+background-color: #ededed;
+color: #006699;
+}
+
+nav a {
+font-weight: 800;
+font-size: 0.6em;
+padding: 15px 4px;
+}
+
+.footer-left, .footer-right {
+width: 40%;
+margin: 2.5%;
+padding:0;
+}
+
+.footer-middle {
+width: 100%;
+margin: 0 auto;
+padding:0;
+}
+
+.footer-left, .footer-right {
+float: left;
+}
+
+.footer-left ul, .footer-right ul {
+font-weight: 800;
+text-align: left;
+font-size: 1em;
+}
+
+.social-icon {
+width: 35px;
+height: 35px;
+margin: 1px;
+padding: 0 2px;
+
+}
+
+.footer-middle p {
+margin: 0 0 2px 0;
+font-size: 0.5em;
+text-align: center;
+}
+
+}
+
+
+
+@media all and (min-width: 480px) {
+
+/*************************************************
+PAGE PORTFOLIO - TWO COLUMN LAYOUT
+*************************************************/
+aside {
+float:left;
+width: 100%;
+font-size: 0.75em;
+font-weight: bold;
+background-color: orange;
+color: #fff;
+}
+
+#gallery li {
+float: left;
+width: 40%;
+margin: 4%;
+background-color: #ededed;
+}
+
+nav a {
+font-weight: 500;
+font-size: 0.9em;
+padding: 15px 10px;
+}
+
+h1 {
+font-size: 1.5em;
+clear: both;
+}
+
+h2 {
+font-size: 0.825em;
+margin-bottom: 20px;
+}
+
+}
+
+@media all and (min-width: 660px) {
+
+/*************************************************
+PAGE PORTFOLIO - THREE COLUMN LAYOUT
+*************************************************/
+
+aside {
+float: left;
+width: 100%;
+margin: 0;
+font-size: 0.85em;
+font-weight: normal;
+background-color: #ccc;
+color: #fff;
+}
+
+#gallery li {
+float: left;
+width: 25%;
+margin: 3.16666%;
+color: #006699;
+background-color: #ededed;
+}
+
+#gallery li:nth-child(4n) {
+clear:left;
+}
+
+nav {
+background: none;
+float: right;
+font-size: 0.9em;
+margin-right: 3%;
+text-align: right;
+width: 82%;
+}
+
+nav a {
+font-weight: 800;
+font-size: .9em;
+padding: 15px 8px;
+color: #fff;
+}
+
+/* header navigation anchor default selected and hover link color*/
+nav a.selected, nav a:hover {
+color: #999999;
+}
+
+#logo {
+text-align: center;
+float: left;
+padding-left: 2px;
+width: 14%;
+}
+
+h1 {
+font-size: 1.5em;
+clear: both;
+}
+
+h2 {
+font-size: 0.825em;
+margin-bottom: 20px;
+}
+
+footer p {
+font-size: 0.75em;
+text-align: center;
+}
+
+footer li {
+font-size: 1.1em;
+}
+
+}
+
